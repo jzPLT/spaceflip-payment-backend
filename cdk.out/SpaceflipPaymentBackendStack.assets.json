@@ -1,0 +1,20 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "03a5e108dbe4a9dcd2be31b596fd12cae2c2d6d8f6aa545477eecd30b9c68cfa": {
+      "displayName": "SpaceflipPaymentBackendStack Template",
+      "source": {
+        "path": "SpaceflipPaymentBackendStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-2073652a": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "03a5e108dbe4a9dcd2be31b596fd12cae2c2d6d8f6aa545477eecd30b9c68cfa.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
